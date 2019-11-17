@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Roblox Developer Hub - Roadmap Restyle
 @namespace      github.com/realsimplydata/devhubrestyle
-@version        1.1.0
+@version        1.1.1
 @description    Changes the status pills on the roadmap to a more simpler pill
 @author         Sebastian Erik Bauer (SimplyData)
 ==/UserStyle== */
@@ -235,7 +235,113 @@
 }
 
 @-moz-document url-prefix("https://developer.roblox.com/en-us/resources/release-note") {
-    body {
-        opacity: 0.5;
-    }
+/* Step 1 */
+.badge.badge-pill.badge-success {
+	background: none;
+	width: 100px !important;
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+}
+
+.badge.badge-pill.badge-success>h5.text-white.my-0.text-nowrap {
+	
+	width: 100px !important;
+	background-color: #555;
+	color: #FFF;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -44px;
+	
+	opacity: 0;
+	transition: opacity 0.3s;
+	
+	font-weight: 500;
+}
+
+.badge.badge-pill.badge-success>h5.text-white.my-0.text-nowrap::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.badge.badge-pill.badge-success:hover>h5.text-white.my-0.text-nowrap {
+	visibility: visible;
+	opacity: 1;
+}
+
+.badge.badge-pill.badge-success::after {
+	width: 100px !important;
+	height: 25px !important;
+	background: url('https://raw.githubusercontent.com/RealSimplyData/devhubrestyle/master/StepLive.png');
+	display: block;
+	background-size: 100px 25px;
+	content: ' ';
+}
+
+/* Step 2 */
+.badge.badge-pill.badge-warning {
+	background: none;
+	width: 100px !important;
+	vertical-align: middle;
+	display: inline-block;
+	position: relative;
+}
+
+.badge.badge-pill.badge-warning>h5.text-white.my-0.text-nowrap {
+	
+	width: 100px !important;
+	background-color: #555;
+	color: #FFF;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+	
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -44px;
+	
+	opacity: 0;
+	transition: opacity 0.3s;
+	
+	font-weight: 500;
+}
+
+.badge.badge-pill.badge-warning>h5.text-white.my-0.text-nowrap::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+}
+
+.badge.badge-pill.badge-warning:hover>h5.text-white.my-0.text-nowrap {
+	visibility: visible;
+	opacity: 1;
+}
+
+.badge.badge-pill.badge-warning::after {
+	width: 100px !important;
+	height: 25px !important;
+	background: url('https://raw.githubusercontent.com/RealSimplyData/devhubrestyle/master/StepPending.png');
+	display: block;
+	background-size: 100px 25px;
+	content: ' ';
+}
 }
