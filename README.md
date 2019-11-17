@@ -13,4 +13,4 @@ A serstyle extension is required, common ones include:
 
 Then:
 
-📦 [Install the UserCSS](https://raw.githubusercontent.com/RealSimplyData/devhubrestyle/master/devhubrestyle.user.css). It supports automatic updates.
+📦 [Install the UserCSS](https://raw.githack.com/RealSimplyData/devhubrestyle/master/devhubrestyle.user.css). It supports automatic updates.
