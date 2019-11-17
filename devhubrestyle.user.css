@@ -111,7 +111,7 @@
 .badge.badge-pill.badge-success::after {
 	width: 100px !important;
 	height: 25px !important;
-	background: url('https://raw.githubusercontent.com/RealSimplyData/devhubrestyle/master/Step1New.png');
+	background: url('https://raw.githubusercontent.com/RealSimplyData/devhubrestyle/master/Step1New2.png');
 	display: block;
 	background-size: 100px 25px;
 	content: ' ';
@@ -166,7 +166,7 @@
 .badge.badge-pill.badge-primary::after {
 	width: 100px !important;
 	height: 25px !important;
-	background: url('https://raw.githubusercontent.com/RealSimplyData/devhubrestyle/master/Step2New.png');
+	background: url('https://raw.githubusercontent.com/RealSimplyData/devhubrestyle/master/Step2New2.png');
 	display: block;
 	background-size: 100px 25px;
 	content: ' ';
@@ -227,9 +227,15 @@
 .badge.badge-pill.badge-info::after {
 	width: 100px !important;
 	height: 25px !important;
-	background: url('https://raw.githubusercontent.com/RealSimplyData/devhubrestyle/master/Step3New.png');
+	background: url('https://raw.githubusercontent.com/RealSimplyData/devhubrestyle/master/Step3New2.png');
 	display: block;
 	background-size: 100px 25px;
 	content: ' ';
 }
+}
+
+@-moz-document url-prefix("https://developer.roblox.com/en-us/resources/release-note") {
+    body {
+        opacity: 0.5;
+    }
 }
