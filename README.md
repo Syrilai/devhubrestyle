@@ -4,6 +4,7 @@ Just a casual restyle which makes all pills look more cleaner than before.
 ## Preview
 ![preview1](https://cdn.discordapp.com/attachments/606125536820985867/645426574249951232/unknown.png)
 ![preview2](https://cdn.discordapp.com/attachments/606125536820985867/645426694961758250/unknown.png)
+![preview3](https://cdn.discordapp.com/attachments/641644087887527936/645624614440927242/unknown.png)
 
 ## Installation
 A serstyle extension is required, common ones include:
