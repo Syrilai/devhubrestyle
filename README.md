@@ -7,7 +7,7 @@ Just a casual restyle which makes all pills look more cleaner than before.
 ![preview3](https://cdn.discordapp.com/attachments/641644087887527936/645624614440927242/unknown.png)
 
 ## Installation
-A serstyle extension is required, common ones include:
+A userstyle extension is required, common ones include:
 
 🎨 Stylus for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) or [Opera](https://addons.opera.com/en-gb/extensions/details/stylus/).<br>
 🎨 xStyle for [Firefox](https://addons.mozilla.org/firefox/addon/xstyle/) or [Chrome](https://chrome.google.com/webstore/detail/xstyle/hncgkmhphmncjohllpoleelnibpmccpj).
